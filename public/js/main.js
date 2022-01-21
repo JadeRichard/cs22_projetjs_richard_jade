@@ -24,10 +24,8 @@ window.addEventListener("scroll", () =>{
             element.classList.remove("navbar_js_bgw")
         })
     }
-    
-
 })
-let scroll_nav = () =>{
 
-}
 
+
+let modal = document.querySelector("#modal")

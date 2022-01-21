@@ -34,14 +34,35 @@
                 </div>
                 <div class="nav_icons pe-5">
                     <i class="fas fa-search mx-1"></i>
-                    <i class="far fa-user mx-1"></i>
+                    <i class="far fa-user mx-1" id="modal" data-bs-toggle="modal"
+                        data-bs-target="#modalInscription"></i>
                     <i class="far fa-heart mx-1"></i>
                     <i class="fas fa-shopping-cart mx-1"></i>
                     <i class="fas fa-adjust mx-1"></i>
                 </div>
+
             </div>
         </nav>
-
+        <!-- Modal -->
+        <div class="modal fade" id="modalInscription" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Log In</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body d-flex flex-column">
+                        <input class="py-2 my-2" type="text" placeholder="E-Mail/Username">
+                        <input class="py-2 my-2" type="password" placeholder="Password">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn">Log In</button>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="row">
             <div class="col-1">
                 <div class="socials ps-4">
@@ -146,7 +167,10 @@
                     </div>
                     <div class="bottom">
                         <div class="col-2"><img src="./public/img/testimonials/image-2.png"></div>
-                        <div class="col-5"><p class="name">Mattie Stepanek</p><p class="role">Manager</p></div>
+                        <div class="col-5">
+                            <p class="name">Mattie Stepanek</p>
+                            <p class="role">Manager</p>
+                        </div>
                     </div>
                 </div>
                 <div class="col-3">
@@ -157,7 +181,10 @@
                     </div>
                     <div class="bottom">
                         <div class="col-2"><img src="./public/img/testimonials/image-1-1.png"></div>
-                        <div class="col-5"><p class="name">Shoko Mugikura</p><p class="role">Designer</p></div>
+                        <div class="col-5">
+                            <p class="name">Shoko Mugikura</p>
+                            <p class="role">Designer</p>
+                        </div>
                     </div>
                 </div>
                 <div class="col-3">
@@ -168,12 +195,15 @@
                     </div>
                     <div class="bottom">
                         <div class="col-2"><img src="./public/img/testimonials/image-3.png"></div>
-                        <div class="col-5"><p class="name">Alexander Harvard</p><p class="role">Director</p></div>
+                        <div class="col-5">
+                            <p class="name">Alexander Harvard</p>
+                            <p class="role">Director</p>
+                        </div>
                     </div>
                 </div>
             </div>
-            
-            
+
+
         </div>
 
         <div class="carousel c_2">
@@ -186,7 +216,10 @@
                     </div>
                     <div class="bottom">
                         <div class="col-2"><img src="./public/img/testimonials/image-2.png"></div>
-                        <div class="col-5"><p class="name">Mattie Stepanek</p><p class="role">Manager</p></div>
+                        <div class="col-5">
+                            <p class="name">Mattie Stepanek</p>
+                            <p class="role">Manager</p>
+                        </div>
                     </div>
                 </div>
                 <div class="col-3">
@@ -197,7 +230,10 @@
                     </div>
                     <div class="bottom">
                         <div class="col-2"><img src="./public/img/testimonials/image-1-1.png"></div>
-                        <div class="col-5"><p class="name">Shoko Mugikura</p><p class="role">Designer</p></div>
+                        <div class="col-5">
+                            <p class="name">Shoko Mugikura</p>
+                            <p class="role">Designer</p>
+                        </div>
                     </div>
                 </div>
                 <div class="col-3">
@@ -208,12 +244,15 @@
                     </div>
                     <div class="bottom">
                         <div class="col-2"><img src="./public/img/testimonials/image-3.png"></div>
-                        <div class="col-5"><p class="name">Alexander Harvard</p><p class="role">Director</p></div>
+                        <div class="col-5">
+                            <p class="name">Alexander Harvard</p>
+                            <p class="role">Director</p>
+                        </div>
                     </div>
                 </div>
             </div>
-            
-            
+
+
         </div>
 
         <div class="carousel c_3">
@@ -226,7 +265,10 @@
                     </div>
                     <div class="bottom">
                         <div class="col-2"><img src="./public/img/testimonials/image-2.png"></div>
-                        <div class="col-5"><p class="name">Mattie Stepanek</p><p class="role">Manager</p></div>
+                        <div class="col-5">
+                            <p class="name">Mattie Stepanek</p>
+                            <p class="role">Manager</p>
+                        </div>
                     </div>
                 </div>
                 <div class="col-3">
@@ -237,7 +279,10 @@
                     </div>
                     <div class="bottom">
                         <div class="col-2"><img src="./public/img/testimonials/image-1-1.png"></div>
-                        <div class="col-5"><p class="name">Shoko Mugikura</p><p class="role">Designer</p></div>
+                        <div class="col-5">
+                            <p class="name">Shoko Mugikura</p>
+                            <p class="role">Designer</p>
+                        </div>
                     </div>
                 </div>
                 <div class="col-3">
@@ -248,12 +293,15 @@
                     </div>
                     <div class="bottom">
                         <div class="col-2"><img src="./public/img/testimonials/image-3.png"></div>
-                        <div class="col-5"><p class="name">Alexander Harvard</p><p class="role">Director</p></div>
+                        <div class="col-5">
+                            <p class="name">Alexander Harvard</p>
+                            <p class="role">Director</p>
+                        </div>
                     </div>
                 </div>
             </div>
-            
-            
+
+
         </div>
 
 
@@ -266,36 +314,36 @@
         </div>
         <div class="row">
             <div class="col-3">
-            <div class="img_blog">
-                <img src="./public/img/blog/blog-listing-img63-578x771.jpg" alt="">
-                <button>Photography</button>
-                <p>Fashion is a part of culture and it's about more than just dress</p>
-                <span>---&nbsp;&nbsp; By Alexis Richards</span>
-            </div>
-            </div>
-            <div class="col-3">
-            <div class="img_blog">
-                <img src="./public/img/blog/blog-listing-img58-578x771.jpg" alt="">
-                <button>Photography</button>
-                <p>I design to make women feel confident and beautiful fashion</p>
-                <span>---&nbsp;&nbsp; By Alexis Richards</span>
-            </div>
+                <div class="img_blog">
+                    <img src="./public/img/blog/blog-listing-img63-578x771.jpg" alt="">
+                    <button>Photography</button>
+                    <p>Fashion is a part of culture and it's about more than just dress</p>
+                    <span>---&nbsp;&nbsp; By Alexis Richards</span>
+                </div>
             </div>
             <div class="col-3">
-            <div class="img_blog">
-                <img src="./public/img/blog/blog-listing-img59-578x771.jpg" alt="">
-                <button>Photography</button>
-                <p>A designer is only as good as the star who wears her clothes</p>
-                <span>---&nbsp;&nbsp; By Alexis Richards</span>
-            </div>
+                <div class="img_blog">
+                    <img src="./public/img/blog/blog-listing-img58-578x771.jpg" alt="">
+                    <button>Photography</button>
+                    <p>I design to make women feel confident and beautiful fashion</p>
+                    <span>---&nbsp;&nbsp; By Alexis Richards</span>
+                </div>
             </div>
             <div class="col-3">
-            <div class="img_blog">
-                <img src="./public/img/blog/blog-listing-img60-578x771.jpg" alt="">
-                <button>Photography</button>
-                <p>Chandeliers aare marvels of drop dead showiness the jewellery</p>
-                <span>---&nbsp;&nbsp; By Alexis Richards</span>
+                <div class="img_blog">
+                    <img src="./public/img/blog/blog-listing-img59-578x771.jpg" alt="">
+                    <button>Photography</button>
+                    <p>A designer is only as good as the star who wears her clothes</p>
+                    <span>---&nbsp;&nbsp; By Alexis Richards</span>
+                </div>
             </div>
+            <div class="col-3">
+                <div class="img_blog">
+                    <img src="./public/img/blog/blog-listing-img60-578x771.jpg" alt="">
+                    <button>Photography</button>
+                    <p>Chandeliers aare marvels of drop dead showiness the jewellery</p>
+                    <span>---&nbsp;&nbsp; By Alexis Richards</span>
+                </div>
             </div>
         </div>
 
@@ -308,47 +356,47 @@
             </div>
             <div class="col-5">
                 <div class="infos">
-                <div class="row py-4">
-                    <div class="col-2"><i class="fas fa-map-marker-alt"></i></div>
-                    <div class="col-4">
-                        <span>Address details</span>
-                        <p>401 Broadway, 24th Floor Iceland, Iceland 10013</p>
+                    <div class="row py-4">
+                        <div class="col-2"><i class="fas fa-map-marker-alt"></i></div>
+                        <div class="col-4">
+                            <span>Address details</span>
+                            <p>401 Broadway, 24th Floor Iceland, Iceland 10013</p>
+                        </div>
                     </div>
-                </div>
-                <div class="row py-4">
-                    <div class="col-2"><i class="fas fa-envelope"></i></div>
-                    <div class="col-4">
-                        <span>Email address</span>
-                        <p>info@domain.com</p>
-                        <p>info@domain.com</p>
+                    <div class="row py-4">
+                        <div class="col-2"><i class="fas fa-envelope"></i></div>
+                        <div class="col-4">
+                            <span>Email address</span>
+                            <p>info@domain.com</p>
+                            <p>info@domain.com</p>
+                        </div>
                     </div>
-                </div>
-                <div class="row py-4">
-                    <div class="col-2"><i class="fas fa-phone"></i></div>
-                    <div class="col-4">
-                        <span>Telephone number</span>
-                        <p>+ 1-800-222-000</p>
-                        <p>+ 1-600-123-000</p>
+                    <div class="row py-4">
+                        <div class="col-2"><i class="fas fa-phone"></i></div>
+                        <div class="col-4">
+                            <span>Telephone number</span>
+                            <p>+ 1-800-222-000</p>
+                            <p>+ 1-600-123-000</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="col-4" id="form">
-            <div class="form_s">
-                <img src="./public/img/fashion/fashion-brand-parallax-bg.jpg" alt="">
-                <div class="form_text">
-                    <div class="form_title">
-                    Simply fill out the form and we'll be in touch with you soon !
+            <div class="col-4" id="form">
+                <div class="form_s">
+                    <img src="./public/img/fashion/fashion-brand-parallax-bg.jpg" alt="">
+                    <div class="form_text">
+                        <div class="form_title">
+                            Simply fill out the form and we'll be in touch with you soon !
+                        </div>
+                        <input type="text" placeholder="Name*" value="">
+                        <input type="text" placeholder="E-mail*" value="">
+                        <input type="text" placeholder="Subject" value="">
+                        <input type="text" placeholder="Your Message" value="">
+                        <button>send message</button>
                     </div>
-                <input type="text" placeholder="Name*" value="">
-                <input type="text" placeholder="E-mail*" value="">
-                <input type="text" placeholder="Subject" value="">
-                <input type="text" placeholder="Your Message" value="">
-                <button>send message</button>
-            </div>
-            </div>
+                </div>
 
-        </div>
+            </div>
         </div>
 
     </section>
@@ -365,34 +413,38 @@
                 <button>SUBSCRIBE <i class="fas fa-arrow-right"></i></button>
             </div>
             <div class="col-3">
-                <p class="me-4">ON SOCIAL NETWORKS <i class="fab fa-facebook-f ms-4 me-2"></i><i class="fab fa-twitter mx-2"></i><i class="fab fa-linkedin-in mx-2"></i><i class="fab fa-instagram  mx-2"></i><i class="fab fa-pinterest-p mx-2"></i></p>
+                <p class="me-4">ON SOCIAL NETWORKS <i class="fab fa-facebook-f ms-4 me-2"></i><i
+                        class="fab fa-twitter mx-2"></i><i class="fab fa-linkedin-in mx-2"></i><i
+                        class="fab fa-instagram  mx-2"></i><i class="fab fa-pinterest-p mx-2"></i></p>
             </div>
         </div>
         <div class="row big_r" id="">
             <div class="col-2">
-               <div class="title">
+                <div class="title">
                     <span>Hon</span>go
-               </div> 
-               <div class="text">
-                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae consequuntur, aut adipisci saepe perferendis labore, nisi unde laboriosam quidem sapiente aliquid id error, quam eaque? Corrupti, veritatis!
-               </div>
+                </div>
+                <div class="text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae consequuntur, aut adipisci saepe
+                    perferendis labore, nisi unde laboriosam quidem sapiente aliquid id error, quam eaque? Corrupti,
+                    veritatis!
+                </div>
             </div>
             <div class="col-1">
                 <div class="title">
-                   categories
-               </div> 
-               <div class="text">
-                   Women collection<br>
-                   Men collection<br>
-                   Child collection<br>
-                   Accessories<br>
-                   Leather shoes
-               </div>
+                    categories
+                </div>
+                <div class="text">
+                    Women collection<br>
+                    Men collection<br>
+                    Child collection<br>
+                    Accessories<br>
+                    Leather shoes
+                </div>
             </div>
             <div class="col-1">
                 <div class="title">
-                   customer
-                </div> 
+                    customer
+                </div>
                 <div class="text">
                     Help and support<br>
                     Shipping and delivery<br>
@@ -403,8 +455,8 @@
             </div>
             <div class="col-1">
                 <div class="title">
-                   company
-                </div> 
+                    company
+                </div>
                 <div class="text">
                     About company<br>
                     Our services<br>
@@ -415,8 +467,8 @@
             </div>
             <div class="col-2" id="img_footer">
                 <div class="title">
-                   Follow us on instagram
-                </div> 
+                    Follow us on instagram
+                </div>
                 <div class="row row-img">
                     <div class="col-3 col-img">
                         <img src="./public/img/footer/infa-01.jpg" alt="">
