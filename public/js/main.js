@@ -236,4 +236,78 @@ for (let i = 0; i < 10; i++) {
 }
 
 
+const sliders = document.querySelectorAll(".btns>i");
+const slides = document.querySelector(".carousel_2");
 
+
+
+let section_4 = document.querySelector(".section_4>.center>.carousel>.carousel_2>.col-3")
+
+if (section_4.clientWidth <= 150) {
+    console.log("coucou");
+    sliders.forEach(e => {
+        e.addEventListener("click", () => {
+            e.classList.remove("active")
+            if (e.classList.contains("first")) {
+                slides.style.transform = "translateX(0vw)";
+                e.classList.add("active");
+              } else if (e.classList.contains("second")) {
+                slides.style.transform = "translateX(-22vw)";
+              }
+        })
+    });
+
+} else {
+    sliders.forEach(e => {
+        e.addEventListener("click", () => {
+            e.classList.remove("active")
+            if (e.classList.contains("first")) {
+                slides.style.transform = "translateX(0vw)";
+                e.classList.add("active");
+              } else if (e.classList.contains("second")) {
+                slides.style.transform = "translateX(-17%)";
+              }
+        })
+    });
+}
+
+let toggle = document.querySelector(".fa-adjust")
+
+toggle.addEventListener("click", () =>{
+    let section_1 = document.querySelector(".section_1")
+    let section_1p = document.querySelectorAll(".small")
+    section_1.classList.toggle("dark");
+    section_1p.forEach(element => {
+        
+        element.classList.toggle("dark");
+    });
+    let section_2 = document.querySelector(".section_2")
+    let section_2p = document.querySelectorAll(".title")
+    section_2.classList.toggle("dark");
+    let section_3 = document.querySelector(".section_3")
+    section_3.classList.toggle("dark_alt");
+    
+    let section_4 = document.querySelector(".section_4")
+    section_4.classList.toggle("dark_test");
+    let section_5 = document.querySelector(".section_5")
+    section_5.classList.toggle("dark_alt");
+    let section_6 = document.querySelector(".section_6")
+    section_6.classList.toggle("dark");
+    let section_7 = document.querySelector(".section_7")
+    section_7.classList.toggle("dark_alt");
+    let section_8 = document.querySelector(".section_8")
+    section_8.classList.toggle("dark");
+    let section_9 = document.querySelector(".section_9")
+    section_9.classList.toggle("dark");
+    section_2p.forEach(element => {
+        
+        element.classList.toggle("dark");
+    });
+    
+    
+
+})
+/* function darkmode() {
+    let all = document.querySelectorAll("body").children
+    all.classList.toggle("dark");
+  } */
