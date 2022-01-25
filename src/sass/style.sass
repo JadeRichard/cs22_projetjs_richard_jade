@@ -1,0 +1,775 @@
+@import "./_fonts"
+@import "./_icons"
+
+body
+    margin: 0px
+    font-family: 'Poppins', sans-serif
+
+.row
+    width: 100%
+.navbar
+    background-color: #f5ebdf00
+    display: flex
+    justify-content: space-between
+    align-items: center
+    border-bottom: 1px solid #0000001a
+    .hongo
+        margin-left: 23px
+    a
+        color: #000000c2
+        text-decoration: none
+    span
+        font-size: 30px
+        
+    ul
+        display: flex
+        align-items: center
+        list-style: none
+        padding: 20px
+        margin: auto
+        li
+            a
+                color: #000000c2
+                font-size: 12px
+                font-weight: 600
+                text-decoration: none
+
+            &:hover
+                text-decoration: underline
+
+
+header
+    height: 100vh
+    background-image: url("../../public/img/collect/one-page-slider-01.jpg")
+    background-size: cover
+    position: relative
+    overflow: hidden
+    .title 
+        margin-top: 40%
+        margin-left: 40%
+        span
+            font-size: 12px
+            text-transform: uppercase
+        h1
+            font-weight: bolder
+            font-size: 50px !important
+
+        p
+            color: #000000b2
+            font-size: 14px
+            width: 70%
+        
+        .price
+            display: flex
+            p
+                font-size: 24px
+                width: fit-content
+                &:first-of-type
+                    text-decoration: line-through
+                &:nth-of-type(2)
+                    font-weight: bold
+                    color: black
+
+        .shop
+            background-color: black
+            color: white
+            border: none
+            padding: 9px 15px 9px 15px
+            font-size: 11px
+            font-weight: bold
+            text-transform: uppercase
+    .socials
+        display: flex
+        font-size: 11px
+        flex-direction: column-reverse
+        margin-top: 300px
+        p
+            transform: rotate(-90deg)
+            text-transform: uppercase
+            font-size: 11px
+            font-weight: bold
+            color: #00000062
+            margin-right: 10px !important
+
+    .women
+        display: flex
+        justify-content: center
+        position: absolute
+        bottom: -100px
+        p
+            color: white
+            
+            width: fit-content
+            font-size: 180px
+            margin: auto
+
+.section_1
+    #text
+        width: 1400px
+        margin: auto
+        .col-2
+            height: 80px
+            display: flex
+            justify-content: center
+            align-items: center
+            margin: auto
+            color: #00000060
+            text-transform: uppercase
+            font-size: 12px
+            font-weight: bold
+                
+
+    #images
+        justify-content: center
+        .col-3
+            width: 400px
+            img
+                width: 100%
+                height: 100%
+
+    #other_text
+        padding-top: 50px
+        justify-content: center
+        align-items: center
+        margin: auto
+        .col-4
+            width: 600px
+        span
+            text-transform: uppercase
+            font-weight: bold
+            font-size: 14px
+        .big
+            font-size: 28px
+
+        .small
+            color: #00000086
+
+.section_2
+    background-color: #F5EBDF
+    .row
+        padding: 160px 0px 160px 0px
+        justify-content: center
+        align-items: center
+        margin: auto
+    img
+        width: 500px
+    .col-5
+        display: flex
+        flex-direction: column
+    .col-3
+        display: flex
+        flex-direction: column
+        span
+            &:nth-of-type(1)
+                text-transform: uppercase
+                font-weight: bold
+                font-size: 12px
+            &:nth-of-type(2)
+                color: #000000bb
+                font-size: 32px
+                margin-bottom: 20px
+        p
+            color: #0000007a
+            font-size: 14px
+        button
+            width: fit-content
+            padding: 12px 18px 12px 18px
+            border: none
+            background-color: black
+            color: white
+            text-transform: uppercase
+            font-size: 14px
+
+.section_4
+    background-color: #F5EBDF    
+    .title
+        width: 20%
+        margin: auto
+        text-align: center
+        padding: 100px 0px 100px 0px    
+        p
+            font-size: 30px 
+        span
+            font-size: 15px     
+            color: #000000a2
+    
+
+.section_5
+    .title
+        padding: 100px 0px 100px 0px
+        width: 20%
+        margin: auto
+        text-align: center
+
+    .row
+        justify-content: center
+        align-items: center
+        width: 90%
+        margin: auto
+        .img_blog
+            display: flex
+            flex-direction: column
+            width: fit-content
+            img
+                width: 400px
+            button
+                width: fit-content
+                margin-top: 30px
+                margin-bottom: 30px
+                background-color: black
+                color: white
+                border: none
+                padding: 9px 15px 9px 15px
+                font-size: 11px
+                font-weight: bold
+                text-transform: uppercase
+            p
+                font-size: 18px
+            span
+                font-size: 14px
+                color: #000000a9
+                margin-bottom: 120px
+
+.section_6
+    background-color: #F5EBDF  
+    z-index: -2
+    position: relative
+    margin: 0px
+    overflow: hidden
+    #prin_row
+            
+        width: 100% !important
+        margin: auto
+    .col-3
+        width: 34%
+        padding: 0px !important
+        img
+            position: absolute
+            height: 100%
+            left: -300px
+           
+    .col-5
+        width: 30%
+        display: flex
+        justify-content: center
+        align-items: center
+        .col-2
+            display: flex
+            justify-content: center
+            align-items: center
+            i
+                font-size: 20px
+        .col-4
+            width: 70%
+            span
+                font-weight: bold
+            p
+                color: #000000a6
+        .infos
+            font-size: 14px
+            p
+                margin: 0px
+    #form
+        img
+            width: 100%
+            position: absolute
+            z-index: -1
+        .form_text
+            color: white
+            z-index: 1
+            display: flex
+            flex-direction: column
+            .form_title
+                padding: 70px
+                font-size: 22px
+            input
+                background-color: #ffffff00
+                height: 48px
+                border-top: none
+                border-right: none
+                border-left: none
+                border-bottom: 1px solid #ffffff2f
+                margin-left: 70px 
+            button
+                width: fit-content
+                margin-top: 40px
+                margin-left: 70px
+                margin-bottom: 100px
+                background-color: white
+                color: black
+                border: none
+                padding: 9px 15px 9px 15px
+                font-size: 11px
+                font-weight: bold
+                text-transform: uppercase
+
+
+.section_7
+    p
+        text-transform: uppercase
+        width: fit-content
+        margin: auto
+        padding: 200px
+        font-weight: bold
+
+.section_8
+    background-color: #000000ce
+    color: #ffffffa8
+    padding-bottom: 100px
+    .row
+        &:nth-of-type(1) 
+            justify-content: space-around
+            align-items: center
+            border-bottom: 1px solid #ffffff1a
+            p
+                margin: 0px
+                margin-right: 25px
+                display: flex
+                justify-content: center
+                align-items: center
+            .col-5 
+                padding: 40px
+            input
+                background-color: #ffffff2a
+                border: none
+                padding: 10px
+                color: #ffffff91
+
+            button
+                background-color: #ffffff2a
+                border: none
+                padding: 10px
+                color: #ffffff91
+        &:nth-child(2)
+            justify-content: center
+            align-items: center
+            .col-2
+                .title
+                    font-size: 20px
+                    font-weight: normal !important
+                    span
+                        font-weight: bold
+            .title
+                text-transform: uppercase
+                font-weight: bold
+                color: white
+                
+            .text
+                font-size: 14px
+                color: #ffffff65
+            #img_footer
+                width: 370px
+                img
+                    width: 70px
+                    margin: 10px
+                    margin-left: 0px
+                    
+    .big_r
+        margin-top: 90px
+
+.copyright
+    padding: 10px
+    background-color: black
+    color: #ffffff5e
+    .row
+        justify-content: space-around
+
+
+/////////////////////// JS
+
+.navbar_js
+  position: fixed
+  
+  background: #ffffff00
+  width: 100%
+  //height: 50px
+  z-index: 2
+  padding-top: 0px !important
+  
+
+.navbar_js_bg
+  color: white !important
+  background: #333
+
+.navbar_js_bgw
+  color: white !important
+
+.modal-body
+    input
+        border: 1px solid #00000049
+        border-radius: 10px
+        padding-left: 10px
+
+.modal-footer
+    button
+        text-transform: uppercase
+        color: white
+        &:nth-child(1)
+            background-color: #ecd3bc
+        &:nth-child(2)
+            background-color: #a56c64
+
+
+
+.center
+    display: flex
+    justify-content: center
+    align-items: center
+    flex-direction: column
+    height: 100%
+    position: relative
+    .carousel 
+        display: flex
+        grid-gap: 1em
+        overflow: hidden
+        width: 65vw
+  
+    .carousel_2 
+        display: flex
+        grid-gap: 20px
+        transition: all 1s ease-in-out
+    .col-3
+        width: 400px
+    .bg
+        background-color: white
+        padding: 30px
+        border-radius: 10px
+        .c_title
+            text-transform: uppercase
+            font-size: 14px
+            font-weight: bold
+        .c_text
+            font-size: 15px
+    .bottom
+        display: flex
+        align-items: center
+        padding: 20px
+        .col-5
+            width: 100px
+        img
+            width: 70px
+            border-radius: 100%
+            
+        .name
+            font-weight: bold
+            padding-top: 20px
+            margin: 0px
+            margin-left: 40px
+            color: #000000c0
+        .role
+            margin-left: 40px
+            color: #000000c0
+
+.btns
+    i
+        position: absolute
+        &:nth-of-type(1)
+            left: 10%
+            margin-bottom: 10px
+            top: 30%
+        &:nth-of-type(2)
+            right: 10%
+            margin-bottom: 10px
+            top: 30%
+      
+
+.dark    
+    background-color: #3a312d !important
+    color: #ffffff9d !important
+    .col-2, .col-3, .col-5, .title, p, span, i
+        color: #ffffff9d !important
+
+.dark_alt  
+    background-color: #5f4e47 !important
+    color: #ffffff9d !important
+    .col-2, .col-3, .col-5, .title, p, span, i
+        color: #ffffff9d !important
+
+.dark_test 
+    background-color: #3a312d !important
+    color: #ffffff9d !important
+    .title, i
+        color: #ffffff9d !important
+    .title>span
+        color: #ffffff9d !important
+    .col-2, .col-3, .col-5, span
+        color: #1110109d !important
+        
+    .bottom>.col-5>p
+        color: #ffffff9d !important
+
+    .bg
+        background-color: #a0897f !important
+
+@media screen and ( min-width: 426px ) and ( max-width: 768px )
+    .row
+        width: 100vw
+    .col-5
+        flex: 1
+    .socials
+        i
+            margin: 10px !important
+        p
+            width: 45px !important
+
+    .section_1
+        #text
+            margin-top: 40px !important
+            width: 700px
+            justify-content: center
+            .col-2
+                margin: 0px !important
+                width: 220px
+
+    .section_2
+        .col-5
+            width: 300px
+            img
+                width: 300px
+        .col-3
+            width: 50%
+
+    .section_4
+        .title
+            width: 80%
+        .col-3
+            width: 80%
+
+    .section_5
+        .title
+            width: 80%
+        .col-3
+            width: 90%
+            img
+                width: 100% !important
+
+    .section_6
+        #prin_row
+            flex-direction: column
+        .col-3
+            img
+                display: none
+                
+        .col-5
+            width: 100%
+            margin-left: 120px
+        .col-4
+                padding: 0px !important
+        #form
+            img
+                height: 100%
+            .form_text
+                .form_title
+                    width: 700px
+                input
+                    width: 640px
+    .section_7
+        p
+            padding: 100px
+    .section_8
+        background-color: #000000ce
+        color: #ffffffa8
+        padding-bottom: 100px
+        .row
+            .col-2
+                width: 100% 
+                margin-top: 10px
+                margin-bottom: 10px  
+            .col-3
+                width: 100%  
+                margin-top: 10px
+                margin-bottom: 10px  
+            .col-1
+                width: 100%
+                margin-top: 10px
+                margin-bottom: 10px  
+            .title
+                width: fit-content
+                margin: auto
+            .text            
+                width: fit-content
+                margin: auto
+                text-align: center
+            .col-img
+                width: fit-content 
+                margin: 4px !important
+                padding: 0px !important
+            .row-img
+                width: fit-content
+            img
+                margin: 4px !important
+                padding: 0px !important
+    .copyright
+        .col-2
+            width: 100%
+            display: flex
+            justify-content: center
+        .col-3
+            width: 100%
+            display: flex
+            justify-content: center
+            margin-bottom: 30px
+
+
+    .navbar_js
+        position: fixed 
+        padding-top: 10px !important
+    
+    .section_4
+        .col-3
+            width: 150px
+        .bottom
+            flex-direction: column
+            align-items: center
+            justify-content: center
+            text-align: center
+            img
+            p
+                margin: 0px !important
+    
+@media screen and ( min-width: 0px ) and ( max-width: 425px )
+    .row
+        width: 100vw
+    .hongo
+        margin-left: 13px
+        width: 300px
+    .col-5
+        flex: 1
+    .socials
+        i
+            margin: 10px !important
+        p
+            width: 45px !important
+    .women
+        p
+            max-width: 100vw
+            bottom: -50px !important
+            font-size: 90px !important
+    .section_1
+        #text
+            margin-top: 40px !important
+            width: 400px
+            justify-content: center
+            .col-2
+                margin: 0px !important
+                width: 220px
+
+        #images
+            margin: auto
+            width: 400px !important
+        .col-4
+            width: 400px !important
+    .section_2
+        .col-5
+            width: 90%
+            img
+                width: 400px
+        .col-3
+            width: 90%
+        button
+            margin: auto
+    .section_4
+        .title
+            width: 80%
+        .col-3
+            width: 80%
+
+    .section_5
+        .title
+            width: 80%
+        .col-3
+            width: 90%
+            img
+                width: 100% !important
+    .section_6
+        #prin_row
+            flex-direction: column
+        .col-3
+            img
+                display: none
+                
+        .col-5
+            width: 100%
+            margin-left: 80px
+        .col-4
+                padding: 0px !important
+        #form
+            img
+                height: 100%
+            .form_text
+                .form_title
+                    width: 400px
+                input
+                    width: 300px
+                button
+                    width: 180px
+    .section_7
+        p
+            padding: 80px 50px 80px 50px
+
+    .section_8
+        background-color: #000000ce
+        color: #ffffffa8
+        padding-bottom: 100px
+        .big_r
+            margin: auto !important
+        .col-5
+            width: 100%
+            flex-direction: column
+            p
+                margin: auto !important
+        .row
+            .col-2
+                width: 100% 
+                margin-top: 10px
+                margin-bottom: 10px  
+            .col-3
+                width: 100%  
+                margin-top: 10px
+                margin-bottom: 10px  
+            .col-1
+                width: 100%
+                margin-top: 10px
+                margin-bottom: 10px  
+            .title
+                width: fit-content
+                margin: auto
+            .text            
+                width: fit-content
+                margin: auto
+                text-align: center
+            .col-img
+                width: fit-content 
+                margin: 4px !important
+                padding: 0px !important
+            .row-img
+                width: fit-content
+            img
+                margin: 4px !important
+                padding: 0px !important
+
+    .copyright
+        .col-2
+            width: 100%
+            display: flex
+            justify-content: center
+        .col-3
+            width: 100%
+            display: flex
+            justify-content: center
+            margin-bottom: 30px
+
+    .navbar_js
+            position: fixed
+            padding-top: 10px !important
+    .section_4
+        .col-3
+            width: 270px
+        .bottom
+            flex-direction: column
+            align-items: center
+            justify-content: center
+            text-align: center
+            img
+            p
+                margin: 0px !important
